@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!---heading--->
+    <header class="head ">
+        <div class="burger">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
+        <div class="upper hide">
+            <ul class="navbar ">
+                <li><a href="#Home"> Home</a></li>
+                <li><a href="#Aboutme"> About me</a></li>
+                <li><a href="#Services"> Services</a></li>
+                <li><a href="#project"> Projects</a></li>
+                <li><a href="#Contactme"> Contact me</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!---home--->
+    <section class="homesec" id="Home">
+        <div class="container">
+            <div><span id="hello">Hello, </span><span id="im">I'm</span></div>
+            <div id="name">KAUS<font color="blue">HI</font>K</div>
+            <div><span id="web"> WEB</span><span id="designer"> DESIGNER</span> </div>
+        </div>
+        <div class="photo1"></div>
+    </section>
+
+    <!---about me-->
+    <section class="aboutsec" id="Aboutme">
+        <div id="photo2"><img src="PSX_20230423_150219.jpg" alt="no img"></div>
+        <div class="container">
+            <div id="aboutme">
+                <font color="white">About </font>me
+            </div>
+            <div id="description">
+                <p>
+                    I'm Kaushik, a passionate individual with a diverse skill set and a strong educational
+                    background.
+                    Born and raised in the vibrant city of Guwahati,my journey of growth started at Guwahati Public
+                    School.
+                    I pursued my dreams in Computer Science Engineering, which laid the foundation for my technical
+                    expertise.
+                </p>
+                <p>With a flair for web designing and data science, I bring creativity and analytical thinking to every
+                    project I undertake.
+                    Alongside my technical prowess, my leadership and management skills help me build cohesive teams and
+                    foster a collaborative work environment.
+                </p>
+                <p>
+                    I believe in the power of optimism and embrace new opportunities with enthusiasm.
+                    My portfolio showcases my journey of exploration and innovation, as I strive to make a positive
+                    impact in the ever-evolving world of technology.
+                    Thank you for visiting my portfolio, and I'm excited to embark on new ventures together.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----services-->
+    <p class="otherserv"id="Services">Other Services <font color="blue">I offer..</font>
+    </p>
+    <section class="servicessec" >
+        <div class="serviceblocks">
+            <span class="serviceicons" id="datascience"><img src="DataScienceicon.png" alt=""></span>
+            <span class="service">Data Science</span>
+            <span class="servicedescription">Skilled in data science with expertise in data analysis, machine learning, and Python programming. Proficient in extracting insights and visualizing data.
+
+            </span>
+            <button class="services">Know more</button>
+        </div>
+        <div class="serviceblocks">
+            <span class="serviceicons" id="fintech"><img src="fintech icon.png" alt=""></span>
+            <span class="service">Fintech</span>
+            <span class="servicedescription">Proficient in fintech with expertise in financial technology solutions, data analysis, and innovation in financial services.
+
+            </span>
+            <button class="services">Know more</button>
+        </div>
+        <div class="serviceblocks">
+            <span class="serviceicons" id="Blockchain"><img src="blocklogo.jfif" alt=""></span>
+            <span class="service">Blockchain</span>
+            <span class="servicedescription">Experienced in blockchain development, smart contracts, and decentralized applications (dApps) using Ethereum and Solidity.
+
+            </span>
+            <button class="services">Know more</button>
+        </div>
+    </section>
+
+    <!----projects-->
+    <div id="project">Latest Projects</div>
+    <section class="projectssec" >
+
+        <div class="projectblocks">
+            <span class="projects">Data Analysis</span>
+            <img src="project1.jpg" alt="">
+            <button class="services">Know more</button>
+        </div>
+        <div class="projectblocks">
+            <span class="projects">Website Design</span>
+            <img src="project2.jpg" alt="">
+            <button class="services">Know more</button>
+        </div>
+    </section>
+
+    <!----contact me-->
+    <section class="contactsec" id="Contactme">
+        <div class="contactbox">
+            <span class="contactme">Contact <font color="blue"> Me!</font></span>
+            <span class="contactmedescription">If interested in collaborating, feel free to reach out! I'm open to opportunities related to my skills. Contact me via email or Phone No. for further discussion.
+                You can also follow me on instagram, facebook and Linkedin.
+            </span>
+            <span class="contactno"><img src="phone.png" alt=""> 23412341143 </span>
+            <span class="Email"><img src="mail.png" alt=""> 234@abc.com</span>
+            <div class="icons">
+                <img src="insta.png" alt="" id="insta">
+                <img src="fb.png" alt="" id="face">
+                <img src="linked in.webp" alt="linkedin icon" id="link">
+            </div>
+        </div>
+        <div class="contactbox">
+            <form action="" class="form">
+                <input type="text" class="group" name="" placeholder="Enter your Name">
+                <input type="email" class="group" name="" placeholder="Enter your email">
+                <input type="text" class="group" name="" id="textarea" placeholder="Any message, feel free...">
+                <div><button class="btn" >Send it to me</button></div>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!----footer-->
+    <footer class="copyright">
+        All the copyright &copy; are reserved to Kaushik
+    </footer>
+
+    <div id="root"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>

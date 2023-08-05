@@ -1,0 +1,785 @@
+.body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    transition: all linear 0.5s;
+}
+
+.lines {
+    background-color: blanchedalmond;
+    width: 34px;
+    height: 2px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.nav-coloured {
+    background-color: black;
+    transition: all linear 0.5s;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+.navbar li {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+
+}
+
+.navbar li a:hover {
+    color: rgb(133, 130, 130);
+}
+
+
+.homesec {
+    border: 2px solid rgb(0, 0, 0);
+    background: url("IMG_5993_2.jpg");
+    background-size: cover;
+    height: 800px;
+    margin-top: -90px;
+
+
+}
+
+.homesec .container {
+    display: block;
+    margin-top: 300px;
+    margin-left: 110px;
+
+}
+
+.homesec .container div {
+    display: block;
+    margin: 20px;
+    padding: 2px;
+
+}
+
+#hi {
+    color: blue;
+}
+
+#hello {
+    font-size: 3rem;
+}
+
+#im {
+    font-size: 2rem;
+}
+
+#name {
+    font-size: 6rem;
+}
+
+#web {
+    font-size: 2rem;
+}
+
+#designer {
+    font-size: 2rem;
+}
+
+.container {
+    color: bisque;
+}
+
+
+
+.aboutsec {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(233, 233, 236);
+    padding-left: 160px;
+    padding-right: 160px;
+    border: none;
+    background-color: rgba(7, 6, 6, 0.938);
+}
+
+.aboutsec div {
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.aboutsec .container {
+    display: inline-block;
+
+    margin-left: 30px;
+}
+
+#photo2 img {
+    height: auto;
+    width: 450px;
+}
+
+#aboutme {
+    color: rgb(14, 14, 240);
+    font-size: 3rem;
+
+}
+
+#description {
+    color: rgb(252, 251, 253);
+}
+
+
+
+
+.servicessec {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(7, 6, 6, 0.938);
+    border: none;
+}
+
+.otherserv {
+
+    display: block;
+    font-size: 3rem;
+    color: aliceblue;
+    background-color: rgba(7, 6, 6, 0.938);
+    text-align: center;
+    margin: 0%;
+    border: none;
+    padding-top: 100px;
+    border: none;
+}
+
+.servicessec .serviceblocks {
+    margin: 40px;
+    padding: 20px;
+
+
+    color: rgb(255, 255, 255);
+    width: 250px;
+    background-color: rgba(34, 33, 33, 0.986);
+}
+
+.serviceblocks span {
+    display: flex;
+    padding-left: 20px;
+
+
+
+}
+
+.serviceblocks .service {
+    font-size: 2rem;
+}
+
+.serviceblocks button {
+    border: 2px solid rgb(1, 1, 51);
+    color: beige;
+    background-color: rgba(28, 28, 238, 0.966);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.serviceicons img {
+    height: 40px;
+    width: auto;
+    margin-bottom: 5px;
+}
+
+.servicedescription {
+    padding: 10px;
+
+}
+
+#fintech {
+    filter: invert(100%);
+}
+
+#datascience {
+    filter: invert(100%);
+    background-color: transparent;
+}
+
+
+
+.projectssec {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgba(7, 6, 6, 0.938);
+    color: beige;
+    justify-content: center;
+    border: none;
+}
+
+.projects {
+    font-size: 2rem;
+}
+
+#project {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 100px;
+    background-color: rgba(7, 6, 6, 0.938);
+    color: aliceblue;
+}
+
+.projectssec .projectblocks {
+
+    background-color: rgba(34, 33, 33, 0.986);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 60px;
+    padding: 30px;
+
+}
+
+.projectssec img {
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+
+}
+
+.projectblocks .services {
+    border: 2px solid rgb(1, 1, 51);
+    color: beige;
+    background-color: rgba(28, 28, 238, 0.966);
+    margin-top: 20px;
+
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+.contactsec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgba(3, 3, 3, 0.938);
+    justify-content: center;
+    color: aliceblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.contactsec .contactbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    flex-shrink: 2;
+    width: 400px;
+}
+
+.contactsec .contactme {
+    font-size: 2.3rem;
+
+    padding: 30px;
+
+}
+
+.contactmedescription {
+    font-size: 1rem;
+    padding: 30px;
+}
+
+.Email {
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.contactno {
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.Email img {
+    height: auto;
+    width: 50px;
+    filter: invert(100%) contrast(70);
+    padding-right: 35px;
+
+}
+
+.contactno img {
+    height: 30px;
+    width: 50px;
+    filter: invert(100%);
+    padding-right: 35px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 30px;
+
+}
+
+.icons img {
+    width: 40px;
+    /* Each image will take up the full width of its grid cell */
+    height: auto;
+
+}
+
+#insta {
+    filter: contrast(5);
+    border-radius: 15px;
+    width: 45px;
+
+}
+
+#face {
+    filter: invert(100%);
+    padding-left: 10px;
+    width: 35px;
+    /* Each image will take up the full width of its grid cell */
+    height: 35px;
+    position: relative;
+    top: 5px;
+}
+
+#link {
+    filter: invert(100%);
+    padding-left: 10px;
+    width: 45px;
+    /* Each image will take up the full width of its grid cell */
+    height: 45px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form div {
+    margin: 0px;
+    padding: 0;
+    align-items: self-start;
+
+}
+
+.btn {
+    border: 2px solid rgb(1, 1, 51);
+    color: beige;
+    background-color: rgba(28, 28, 238, 0.966);
+    padding: 10px;
+    margin-left: 2px;
+    border-radius: 10px;
+
+
+}
+
+#textarea {
+
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-bottom: 300px;
+}
+
+.form .group {
+    font-size: 1rem;
+    background-color: rgba(34, 33, 33, 0.986);
+    color: azure;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+
+footer {
+    text-align: center;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:714px) {
+    .upper {
+        margin-top: 50px;
+    }
+
+    header {
+        padding: 0px;
+        background-color: black;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+
+    }
+
+    .nav-coloured {
+        transition: all linear 0.5s;
+        height: auto;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .burger {
+        display: inline;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        cursor: pointer;
+        padding-bottom: 10px;
+
+    }
+
+
+    .homesec .container div {
+        display: block;
+        margin: 0px;
+        padding: 2px;
+
+    }
+
+
+    #hello {
+        font-size: 2.5rem;
+    }
+
+    #im {
+        font-size: 1.5rem;
+    }
+
+    #name {
+        font-size: 4.5rem;
+    }
+
+    #web {
+        font-size: 1.5rem;
+    }
+
+    #designer {
+        font-size: 1.5rem;
+    }
+
+
+
+    .aboutsec {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgb(233, 233, 236);
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        background-color: rgba(7, 6, 6, 0.938);
+    }
+
+    .aboutsec div {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #photo2 img {
+        width: 300px;
+    }
+
+    #aboutme {
+        font-size: 2.5rem;
+    }
+
+    #description {
+        color: rgb(252, 251, 253);
+    }
+
+
+}
+
+@media only screen and (max-width:623px) {
+    .homesec {
+        height: 600px;
+    }
+
+    .homesec .container {
+        margin-top: 250px;
+        margin-left: 70px;
+
+    }
+
+
+    .aboutsec {
+        flex-wrap: wrap;
+    }
+
+    .aboutsec div {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #photo2 img {
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    #aboutme {
+        font-size: 2.5rem;
+    }
+
+
+    .servicessec {
+        font-size: 1rem;
+    }
+
+    .otherserv {
+        font-size: 1.955rem;
+    }
+    .serviceblocks .service {
+        font-size: 1.8rem;
+        
+    }
+
+
+
+
+    .projects {
+        font-size: 1.5rem;
+    }
+
+    #project {
+        font-size: 2rem;
+    }
+
+    .projectssec .projectblocks {
+        margin: 30px;
+    }
+
+    .projectssec img {
+        height: 140px;
+    }
+
+    .projectblocks .services {
+        font-size: 12px;
+    }
+
+
+
+   
+
+    .contactsec .contactbox {
+        flex-shrink: 0;
+        width: 400px;
+    }
+
+    .contactsec .contactme {
+        font-size: 1.8rem;
+        padding-left: 30px;
+        padding-bottom: 10px;
+
+    }
+
+    .contactmedescription {
+        font-size: 1rem;
+
+    }
+
+    .Email {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+
+    .contactno {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+
+    .Email img {
+        height: auto;
+        width: 35px;
+        filter: invert(100%) contrast(70);
+        padding-right: 35px;
+
+    }
+
+    .contactno img {
+        height: 20px;
+        width: 35px;
+        filter: invert(100%);
+        padding-right: 35px;
+    }
+
+    .icons {
+        display: flex;
+        margin-top: 30px;
+        padding-left: 30px;
+
+    }
+
+
+
+    #insta {
+        filter: contrast(5);
+        border-radius: 15px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    #face {
+        width:28px;
+        height: 28px;
+    }
+
+    #link {
+        width: 35px;
+        height: 35px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 3;
+    }
+
+    .form div {
+        margin: 0px;
+        padding: 0;
+
+    }
+
+
+
+    #textarea {
+
+        line-height: 1.5;
+        padding-top: 10px;
+        padding-bottom: 100px;
+    }
+    footer {
+        font-size: 0.8rem;
+
+    }
+
+}
+@media only screen and (max-width:450px) {
+    .homesec{
+        height: 450px;
+    }
+    .homesec .container {
+        margin-top: 210px;
+        margin-left: 40px;
+    
+    }
+    
+    .homesec .container div {
+        margin: 10px;    
+    }
+    
+    
+    #hello {
+        font-size: 1.5rem;
+    }
+    
+    #im {
+        font-size: 1.5rem;
+    }
+    
+    #name {
+        font-size: 2.8rem;
+    }
+    
+    #web #designer{
+        font-size: 1.5rem;
+    }
+    
+
+    .otherserv {
+        font-size: 1.8rem;
+    }
+    .serviceblocks .service {
+        font-size: 1.5rem;
+        
+    }
+
+    .contactsec{
+        padding: 5px;
+    }
+    .contactsec .contactbox {
+        flex-shrink: 3;
+        width: 300px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .Email img {
+        padding-right: 25px;
+    }
+    .contactno img {
+        padding-right: 25px;
+    }
+
+}

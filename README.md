@@ -1,2 +1,1 @@
-# my_portfolio.github.io
-as a beginner
+this is my portFolio
