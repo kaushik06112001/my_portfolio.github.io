@@ -20,7 +20,7 @@ header {
     left: 0;
     width: 100%;
     padding: 10px;
-    transition: all linear 0.5s;
+    transition: all linear 1s;
 }
 
 .lines {
@@ -152,6 +152,10 @@ header {
 #photo2 img {
     height: auto;
     width: 450px;
+    transition: 1s;
+}
+#photo2 img:hover {
+    transform: scale(1.1) ;
 }
 
 #aboutme {
@@ -199,6 +203,10 @@ header {
     color: rgb(255, 255, 255);
     width: 250px;
     background-color: rgba(34, 33, 33, 0.986);
+    transition: 1s;
+}
+.servicessec .serviceblocks:hover{
+    transform: scale(1.1);
 }
 
 .serviceblocks span {
@@ -281,7 +289,11 @@ header {
     text-align: center;
     margin: 60px;
     padding: 30px;
+    transition: 1s;
 
+}
+.projectssec .projectblocks:hover {
+    transform: scale(1.1);
 }
 
 .projectssec img {
