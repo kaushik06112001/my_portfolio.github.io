@@ -11,17 +11,25 @@ window.onscroll=function (){
     }
 };
 
-    const upper = document.querySelector(".upper");
+    const navbar = document.querySelector(".navbar");
     const burger = document.querySelector('.burger');
 
     burger.addEventListener('click', () => {
-        if (upper.classList.contains('hide')) {
-            upper.classList.remove('hide');
+        if (navbar.classList.contains('hide')) {
+            navbar.classList.remove('hide');
             console.log("remove hide");
         } 
-        else if (!upper.classList.contains('hide')) {
-            upper.classList.add('hide');
+        else if (!navbar.classList.contains('hide')) {
+            navbar.classList.add('hide');
             console.log("add hide");
+        } 
+        if (head.classList.contains('nav-resp')) {
+            head.classList.remove('nav-resp');
+            console.log("remove nav-resp");
+        } 
+        else if (!head.classList.contains('nav-resp')) {
+            head.classList.add('nav-resp');
+            console.log("add nav-resp");
         } 
         
         console.log("result")
